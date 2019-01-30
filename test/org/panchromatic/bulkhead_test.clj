@@ -94,7 +94,7 @@
       {}
       (t/is (= #{10 20} d)))
 
-    (t/testing "just start ::comp-b's child"
+    (t/testing "just start ::comp-d's child"
       (sut/with-bulkhead [d ::comp-d
                           _ ::comp-e]
         {::comp-e (constantly 30)}
