@@ -1,4 +1,4 @@
-(defproject org.panchromatic/bulkhead "0.1.0-SNAPSHOT"
+(defproject org.panchromatic/bulkhead "0.1.0"
   :description "Testing library for Clojure and Integrant application"
   :url "https://github.com/ayato-p/bulkhead"
   :license {:name "MIT License"
